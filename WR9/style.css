@@ -1,0 +1,222 @@
+body{
+   
+}
+.maindiv{
+    display: flex;
+    width: 1440px;
+    height: 1845px;
+    flex-wrap: wrap;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.leftin{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 837px;
+    width: 720px; 
+}
+
+.skilled{
+    width: 112px;
+    height: 28px;
+    margin-left: 166px;
+    margin-top: 39px;
+}
+
+.maximize{
+    font-size: 56px;
+    line-height: 71px;
+    font-weight: 800;
+    margin-top: 186px;
+}
+.our{
+    font-weight: 900; font-size: 18px;
+    line-height: 28px;
+   color:  rgba(131, 134, 154, 1);
+}
+.firstbutton{
+    margin-top: 40px;
+    width: 167px;
+    height: 63px;
+    border-radius: 31.5px;
+    border: 0;
+    cursor: pointer;
+    background-image: linear-gradient(rgba(255, 111, 72, 1),rgba(240, 42, 166, 1));
+}
+.firstbutton:hover{
+    background-image: linear-gradient(rgba(255, 111, 72, 0.5),rgba(240, 42, 166, 0.5)); 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5));
+}
+.buttontext1{
+    color: white;
+    font-weight: 700; 
+    font-size: 18px;
+    line-height: 28px;
+}
+.rightin{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+   height: 837px;
+   width: 720px;
+   position: relative;
+  overflow: hidden;
+}
+.secondbutton{
+    margin-top: 40px;
+    width: 167px;
+    height: 63px;
+    border-radius: 31.5px;
+    margin-right: 165px;
+    border: 0;
+    background-color: rgba(19, 24, 63, 1);
+    cursor: pointer;
+}
+.secondbutton:hover{
+    background-color: rgba(102, 108, 163, 1);
+}
+.buttontext2{
+    color: white;
+    font-weight: 700; 
+    font-size: 18px;
+    line-height: 28px;
+}
+.image-hero{
+    width: 900px;
+    height: 800px;
+    position: absolute;
+    left: 80px;
+    bottom: 130px;
+    z-index: -1;
+}
+.bottomin{
+    width: 1440px;
+    height: 888px;
+    background-image:
+     linear-gradient(rgba(255, 255, 255, 1), rgba(240, 241, 255, 1));
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: center;
+}
+.inlast{
+    width: 350px;
+    height: 322px;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.check{
+    display: flex;
+    background-image: linear-gradient(rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+}
+.checkp{
+   color: rgba(255, 255, 255, 1);
+   font-weight: 800; font-size: 32px; line-height: 40px;
+   margin-top: 64px;
+   margin-left: 32px;
+}
+.animation{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.animation-icon{
+    position: absolute;
+    left: 20px;
+    bottom: 290px;
+}
+.design{
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+.design-icon{
+    position: absolute;
+    left: 20px;
+    bottom: 290px;
+}
+.photo{
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+.photo-icon{
+    position: absolute;
+    left: 20px;
+    bottom: 290px;
+}
+.crypto{
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+.crypto-icon{
+    position: absolute;
+    left: 20px;
+    bottom: 290px;
+}
+.business{
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+.business-icon{
+    position: absolute;
+    left: 20px;
+    bottom: 290px;
+}
+.icons{
+    width: 56px;
+    height: 56px;
+}
+    .header{
+        margin-top: 64px;
+        margin-left: 32px;
+        font-weight: 800; font-size: 24px;
+        line-height: 31.24px;
+        color: rgba(19, 24, 63, 1);
+    }
+    .text{
+        margin-left: 32px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-weight: 500; font-size: 18px; line-height: 28px;
+        color: rgba(131, 134, 154, 1);
+    }
+
+    .links{
+        margin-left: 32px;
+        text-decoration: none;
+        color: rgba(247, 71, 128, 1);
+        font-weight: 700; font-size: 18px;
+        line-height: 28px;
+        cursor: pointer;
+    }
+    .enddivi{
+        width: 1440px; height: 120px;
+        background-color: rgba(19, 24, 63, 1);
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .enddiviimg{
+        width: 112px;
+        height: 28px;
+        margin-left: 165px;
+    }
+    .thirdbutton{
+        margin-top: 40px;
+        width: 167px;
+        height: 63px;
+        border-radius: 31.5px;
+        border: 0;
+        background-image:
+         linear-gradient(rgba(72, 81, 255, 1), rgba(240, 42, 166, 1));
+         margin-right: 165px;
+         cursor: pointer;
+    }
+    .thirdbutton:hover{
+    background-image: linear-gradient(rgba(72, 81, 255, 0.5),rgba(240, 42, 166, 0.5) );
+
+    }
+
+   
